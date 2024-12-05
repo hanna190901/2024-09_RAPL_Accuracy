@@ -2,7 +2,7 @@ Kompilierung:
 gcc -O2 -Wall -o main rapl_measure1.c -Iema/include -Lema/lib -lEMA -lpthread
 
 Verbindung zu naaice1:
-ssh -J kretz@login.cs.uni-potsdam.de root@naaice1.lab.cs.uni-potsdam.de
+ssh -J user@login.cs.uni-potsdam.de root@naaice1.lab.cs.uni-potsdam.de
 ssh naaice1
 
 Datentransfer:

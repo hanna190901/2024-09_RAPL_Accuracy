@@ -1,0 +1,17 @@
+Kompilierung: 
+gcc -O2 -Wall -o main rapl_measure1.c -Iema/include -Lema/lib -lEMA -lpthread
+
+Verbindung zu naaice1:
+ssh -J kretz@login.cs.uni-potsdam.de root@naaice1.lab.cs.uni-potsdam.de
+ssh naaice1
+
+Datentransfer:
+scp rapl_measure1.c root@naaice1:~\rapl_measure1.c
+
+scp  root@naaice1:~/output.EMA.115062 ./output.EMA.115062
+scp  root@naaice1:~/output.EMA.122540 ./output.EMA.122540
+scp  root@naaice1:~/output.EMA.122542 ./output.EMA.122542
+scp  root@naaice1:~/output.EMA.122546 ./output.EMA.122546
+scp  root@naaice1:~/output.EMA.122537 ./output.EMA.122537
+scp  root@naaice1:~/output.EMA.126566 ./output.EMA.126566
+

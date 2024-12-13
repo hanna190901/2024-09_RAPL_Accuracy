@@ -37,7 +37,7 @@ int main(int argc, char **argv)
     // Initialize a region.
     EMA_REGION_DECLARE(region_v0); // declares a region handle that holds the measurement data
     EMA_REGION_DECLARE(region_v1); 
-	EMA_REGION_DECLARE(region_v2);
+    EMA_REGION_DECLARE(region_v2);
     EMA_REGION_DECLARE(region_v3);
     EMA_REGION_DECLARE(region_v4);
     EMA_REGION_DECLARE(region_v5);
@@ -50,7 +50,7 @@ int main(int argc, char **argv)
 	// EMA_REGION_DEFINE` defines the region by setting a name
     EMA_REGION_DEFINE_WITH_FILTER(&region_v0, "v0", filter); //is an extended version that takes an optional filter argument
     EMA_REGION_DEFINE_WITH_FILTER(&region_v1, "v1", filter); 
-	EMA_REGION_DEFINE_WITH_FILTER(&region_v2, "v2", filter);
+    EMA_REGION_DEFINE_WITH_FILTER(&region_v2, "v2", filter);
     EMA_REGION_DEFINE_WITH_FILTER(&region_v3, "v3", filter);
     EMA_REGION_DEFINE_WITH_FILTER(&region_v4, "v4", filter);
     EMA_REGION_DEFINE_WITH_FILTER(&region_v5, "v5", filter);
